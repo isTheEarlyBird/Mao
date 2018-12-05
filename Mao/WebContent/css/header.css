@@ -1,0 +1,14 @@
+@charset "UTF-8";
+header {
+    height: 100px;
+}
+header .logo {
+    top: 25px;
+    left: 40px;
+}
+header .logo img {
+    width: 130px;
+}
+header .search {
+    margin: 25px auto;
+}

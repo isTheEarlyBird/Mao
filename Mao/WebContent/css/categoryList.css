@@ -1,0 +1,135 @@
+@charset "UTF-8";
+header .logo {
+	top: 25px;
+}
+#main {
+	width: 1245px;
+	margin: auto;
+    overflow: hidden;
+}
+.goods {
+	overflow: hidden;
+}
+.goods-content {
+    float: left;
+    width: calc(19% - 2px);
+    height: 300px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 1%;
+     margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.goods-content:hover {
+    border: 1px solid #ff0036;
+}
+.goods-content:hover img {
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.goods-content img {
+    width: 185px;
+    height: 185px;
+    margin-top: 20px;
+}
+.goods-content div {
+    width: 135px;
+    height: 40px;
+    margin: 15px auto;
+    color: #000;
+    line-height: 20px;
+    overflow: hidden;
+}
+.goods-content p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ff0036;
+}
+/*分页*/
+.paging {
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+.paging>div {
+	display: inline-block;
+	
+}
+.paging li {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ccc;
+}
+.paging li.active {
+	background-color: #60c7f6;
+}
+
+.paging li:hover {
+	background-color: #60c7f6;
+}
+.paging li.disabled:hover {
+	background-color: #ccc;
+}
+.paging li:nth-child(1) {
+	border-radius: 5px 0 0 5px;
+}
+.paging li:nth-last-child(1) {
+	border-radius: 0 5px 5px 0;
+}
+.paging li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+.paging li a:hover {
+	color: #fff;
+}
+/*历史记录*/
+.history {
+	width: 160px;
+	height: 620px;
+	position: absolute;
+	top: 155px;
+	left: 30px;
+	background-color: #fff;
+	padding: 5px;
+	
+}
+.history .history-top {
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	background-color: #95e1f1;
+}
+.history .history-main {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow-y: auto;
+}
+.history-main li {
+	margin-top: 10px;
+	border-bottom: 1px dashed; #ccc;
+}
+.history-main a img {
+	width: 120px;
+	height: 120px;
+	margin-bottom: 10px;
+}
+
+.history-main a p {
+	width: 100px;
+	margin: auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;	
+}

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.cart {
+	width: 1240px;
+	margin: auto;
+}
+.cart p {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cart .clear {
+	text-align: right;
+    margin-bottom: 10px;
+}
+.cart .clear a {
+	font-size: 16px;
+    font-weight: bold;
+    color: #5cbfef;
+}
+.cart .clear a:hover {
+	color: #5aa0c2;
+}
+.cart table {
+	width: 100%;
+	background-color: #fff;
+	font-size: 16px;
+}
+.cart table td {
+	padding: 10px;
+}
+.row td {
+	height: 30px;
+}
+.item .title a{
+	color: blue;
+}
+.item .del a{
+	color: red;
+}
+.item .del a:hover{
+	color: #fa7d7d;
+}
+.cart table img {
+	width: 70px;
+	height: 70px;
+}
+
+.total {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+.btn {
+	text-align: right;
+}
+.cart .btn a {
+	float: right;
+	width: 100px;
+	height: 40px;
+	background-color: red;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+}
+/* 没有商品 */
+.cart .empty {
+	height: 300px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	line-height: 300px;
+}

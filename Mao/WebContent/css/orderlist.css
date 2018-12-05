@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.main {
+	width: 1230px;
+	margin: auto;
+}
+
+.main > p,.main table .row,.main table th   {
+	font-size: 16px;
+	font-weight: bold;
+}
+.main > p {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.main table {
+	width: 100%;
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+.main table tbody {
+	margin-bottom: 10px;
+}
+.main table td {
+	padding: 10px;
+	font-size: 16px;
+}
+.main table th {
+	text-align: left;
+	padding: 10px;
+}
+.main table img {
+	width: 70px;
+	height: 70px;
+}
+.main table .total {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
