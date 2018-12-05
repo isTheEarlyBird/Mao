@@ -5,9 +5,11 @@
 ![image](https://github.com/isTheEarlyBird/Mao/blob/master/gif/%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95.gif)<br>
 <b>2. 注册登陆</b><br>
 ![image](https://github.com/isTheEarlyBird/Mao/blob/master/gif/%E6%B3%A8%E5%86%8C%E4%B8%8E%E7%99%BB%E9%99%86.gif)<br>
-<b>3. 购买商品（购物车与下订单）</b><br>
-![image](https://github.com/isTheEarlyBird/Mao/blob/master/gif/%E8%B4%AD%E4%B9%B0.gif)<br>
-<b>4. 查看订单与购物车</b><br>
+<b>3. 购物车</b><br>
+![image](https://github.com/isTheEarlyBird/Mao/blob/master/gif/%E8%B4%AD%E7%89%A9%E8%BD%A6.gif)<br>
+<b>4. 下单<b><br>
+![image](https://github.com/isTheEarlyBird/Mao/blob/master/gif/%E4%B8%8B%E8%AE%A2%E5%8D%95.gif)<br>
+<b>5. 查看订单与购物车</b><br>
 ![image](https://github.com/isTheEarlyBird/Mao/blob/master/gif/%E8%AE%A2%E5%8D%95%E4%B8%8E%E8%B4%AD%E7%89%A9%E8%BD%A6.gif)<br>
 
 <b>后端页面</b><br>
